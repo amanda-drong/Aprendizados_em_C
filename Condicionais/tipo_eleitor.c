@@ -16,7 +16,7 @@ int main()
 
         if (idade >= 18 && idade <= 65)
         {
-            printf("Eleitor obtigatorio!");
+            printf("Eleitor obrigatorio!");
         }
         else
         {
