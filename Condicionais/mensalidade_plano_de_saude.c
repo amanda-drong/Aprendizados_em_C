@@ -4,6 +4,7 @@ int main()
 {
   char nome[20];
   int idade;
+  double valor;
 
   printf("Digite seu nome: ");
   scanf("%s", nome);
@@ -13,24 +14,26 @@ int main()
 
   if (idade <= 18)
   {
-    printf("Ola, %s! O valor do plano e R$ 50,00", nome);}
-  
-  else if (idade >= 19 && idade <= 29)
-    {
-      printf("Ola, %s! O valor do plano e R$ 70,00", nome);
-    }
-   if (idade >= 30 && idade <= 45)
-  {
-    printf("Ola, %s! O valor do plano e R$90,00", nome);
-	}
-	else if (idade >= 46 && idade <= 65)
-    {
-      printf("Ola, %s! O valor do plano e R$ 130,00", nome);
-    }
-  
-  if (idade >=66)
-  {
-    printf("Ola, %s! O valor do plano e R$ 170,00", nome);
+    valor = 50.00;
   }
+
+  else if (idade <= 29)
+  {
+    valor = 70.00;
+  }
+  else if (idade <= 45)
+  {
+    valor = 100.00;
+  }
+  else if (idade <= 65)
+  {
+    valor = 150.00;
+  }
+  else
+  {
+    valor = 170.00;
+  }
+  printf("Ola, %s! O valor do plano e R$ %.2f", nome, valor);
+
   return 0;
 }
