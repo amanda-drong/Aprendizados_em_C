@@ -1,16 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
-    int i;
-
-    printf("Carregando!");
-
-    for (i = 0; i < 10; i++)
-    {
-        printf("\nAguarde...\n");
-    }
-    printf("Concluido!");
-
-    return 0;
+int main () {
+	int cont;
+	
+	for(cont = 0; cont < 10; cont++) {
+		printf("%d\n", cont);
+	}
+	return 0;
 }
