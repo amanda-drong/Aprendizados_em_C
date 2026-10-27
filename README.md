@@ -1,6 +1,6 @@
 # Aprendizados em C
 
-Repositório dedicado aos meus estudos de linguagem C, com exercícios práticos desenvolvidos durante minha jornada de aprendizado em Engenharia de Software.
+Repositório dedicado aos meus estudos da linguagem C, com exercícios práticos desenvolvidos durante minha jornada de aprendizado em Engenharia de Software.
 
 ## Objetivo
 
@@ -15,7 +15,7 @@ Registrar minha evolução na programação, praticar os conceitos estudados e c
 - [x] Estruturas condicionais (`if`, `else` e `else if`)
 - [x] Operadores relacionais e lógicos
 - [x] Estrutura de seleção (`switch`, `case` e `default`)
-- [ ] Estruturas de repetição
+- [x] Estruturas de repetição (`for`, `while` e `do-while`)
 - [ ] Vetores e matrizes
 - [ ] Funções
 
@@ -32,7 +32,12 @@ Aprendizados_em_C/
 ├── Antecessor_e_Sucessor/
 ├── Calculo_da_Media/
 ├── Calculo_de_Juros/
-└── Condicionais/
+├── Condicionais/
+├── Calculadora/
+└── Estruturas_de_Repeticao/
+    ├── While/
+    ├── Do_While/
+    └── For/
 ```
 
 A estrutura será ampliada conforme novos exercícios forem desenvolvidos.
@@ -46,8 +51,14 @@ A estrutura será ampliada conforme novos exercícios forem desenvolvidos.
 
 ## Como executar os programas
 
-1. Clone este repositório.
-2. Abra a pasta do exercício desejado no terminal.
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/amanda-drong/Aprendizados_em_C.git
+   ```
+
+2. Acesse a pasta do exercício desejado no terminal.
+
 3. Compile o arquivo `.c` com o GCC:
 
    ```bash
@@ -60,7 +71,7 @@ A estrutura será ampliada conforme novos exercícios forem desenvolvidos.
    .\programa.exe
    ```
 
-Substitua `nome_do_arquivo.c` pelo nome do arquivo que deseja compilar.
+Substitua `nome_do_arquivo.c` pelo nome do arquivo que deseja compilar. Se o exercício estiver dentro de uma subpasta, acesse essa pasta antes de executar os comandos.
 
 ## Acompanhamento dos estudos
 
