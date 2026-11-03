@@ -11,12 +11,14 @@ int main()
 
     aluno = 1;
 
-    while (aluno <= QUANT_ALUNOS) {
+    while (aluno <= QUANT_ALUNOS)
+    {
         soma_notas = 0;
 
         printf("\nDigite as notas do aluno numero %d:\n", aluno);
 
-        for (i = 1; i <= QUANT_NOTAS; i++) {
+        for (i = 1; i <= QUANT_NOTAS; i++)
+        {
             printf("Digite a nota: ");
             scanf("%f", &nota);
 
